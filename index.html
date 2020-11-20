@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Аниме Магазин</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=NotoSans">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <img src="./img/header/logo.png" alt="">
+                <h3 class="navbar__logo-title">Аниме магазин</h3>
+            </div>
+            <div class="navbar__nav">
+                <ul class="navbar__list">
+                    <li class="navbar__list-item"><a href="#" class="active">Главная</a></li>
+                    <li class="navbar__list-item"><a href="#products">Товары и услуги</a></li>
+                    <li class="navbar__list-item"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="navbar__contacts">
+                <a class="navbar__contacts-number" href="tel:+79012760699">+7 (901) 276-06-99</a>
+                <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.3733 3.5C23.5333 3.5 25 4.96667 25 11.1267V17.8733C25 24.0333 23.5333 25.5 17.3733 25.5H10.6267C4.46667 25.5 3 24.0333 3 17.8733V11.1267C3 4.96667 4.46667 3.5 10.6267 3.5H17.3733ZM8.72919 10.375H7.12503C6.66669 10.375 6.57502 10.5908 6.57502 10.8287C6.57502 11.2536 7.11887 13.361 9.10727 16.1481C10.4329 18.0515 12.3005 19.0833 14 19.0833C15.0197 19.0833 15.1459 18.8542 15.1459 18.4594V17.0208C15.1459 16.5625 15.2425 16.471 15.5654 16.471C15.8033 16.471 16.2112 16.59 17.1629 17.5077C18.2506 18.5954 18.4299 19.0833 19.0417 19.0833H20.6459C21.1042 19.0833 21.3334 18.8542 21.2012 18.4019C21.0565 17.9512 20.5372 17.2972 19.8481 16.522C19.4742 16.0801 18.9134 15.6043 18.7434 15.3663C18.5055 15.0605 18.5735 14.9245 18.7434 14.6526L18.772 14.6121C19.0137 14.2685 20.7124 11.8326 20.9018 10.9647C21.0037 10.6248 20.9018 10.375 20.4167 10.375H18.8125C18.4046 10.375 18.2166 10.5908 18.1146 10.8287C18.1146 10.8287 17.2988 12.8171 16.1432 14.1087C15.7693 14.4826 15.5993 14.6016 15.3954 14.6016C15.2934 14.6016 15.1458 14.4826 15.1458 14.1427V10.9647C15.1458 10.5568 15.0275 10.375 14.6875 10.375H12.1667C11.9118 10.375 11.7585 10.5643 11.7585 10.7437C11.7585 11.1304 12.3363 11.2196 12.3959 12.3073V14.6696C12.3959 15.1875 12.3023 15.2814 12.0984 15.2814C11.5546 15.2814 10.2317 13.2841 9.44715 10.9986C9.29339 10.5544 9.13917 10.375 8.72919 10.375Z" fill="white"/>
+                </svg>
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.4636 14.8021C15.0435 13.2221 17.5306 13.0765 19.1844 14.467L20.3795 15.4737C21.7432 16.6214 21.8819 18.6903 20.6869 20.0935C20.0352 20.8474 19.1178 21.321 18.1258 21.4157C14.3073 21.9301 10.3016 20.09 6.10627 15.8944C1.911 11.6988 0.0699274 7.69156 0.584225 3.87389C0.61095 3.57518 0.673023 3.2807 0.769141 2.99663C0.99154 2.34404 1.38414 1.76267 1.90637 1.3126C3.31058 0.11864 5.37817 0.256182 6.5258 1.6212L7.53128 2.81632C8.92393 4.46798 8.77946 6.95646 7.19959 8.53646L6.34204 9.39292C6.11341 9.62197 6.03855 9.96294 6.15019 10.2667C6.46224 11.1197 7.25853 12.1854 8.53676 13.4637C9.81615 14.7432 10.8817 15.5384 11.7335 15.8516C12.0375 15.963 12.3784 15.8877 12.6072 15.6586L13.4636 14.8021Z" fill="white"/>
+                </svg>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="header__content">
+                <h2 class="header__content-title">Аниме магазин</h2>
+                <p class="header__content-desc">Мы занимаемся продажей товаров с аниме атрибутикой вот уже некоторое количество времени, чтобы оформить заказ,свяжитесь с нами через ВК</p>
+                <button class="btn header__content-button">Оставить заявку</button>
+            </div>
+        </div>
+        <div class="header__slider">
+            <div class="header__slider-item">Не забудьте оставить отзыв</div>
+            <div class="header__slider-item">Мы продаем только оригинальные товары уже <br> на протяжении 5 лет!</div>
+            <div class="header__slider-item">Вы можете связаться с нами в любой момент</div>
+            <div class="header__slider-item">В любой момент вы сможете оставь свои контактые данные ниже и мы свяжемся с вами</div>
+            <div class="header__slider-item">Гарантия на товар 1 месяц</div>
+        </div>
+    </header>
+
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="products-title">Товары и услуги</h2>
+            <div class="products__grid">
+                <div class="products__item">
+                    <div class="products__item-img">
+                        <div style="background-image: url('img/products/1.jpg');"></div>
+                    </div>
+                    <a href="#" class="products__item-title">Бездомный бог. Том 12.</a>
+                    <p class="products__item-price">3 822 ₽</p>
+                </div>
+                <div class="products__item">
+                    <div class="products__item-img">
+                        <div style="background-image: url('img/products/2.jpg');"></div>
+                    </div>
+                    <a href="#" class="products__item-title">Бездомный бог. Том 12.</a>
+                    <p class="products__item-price">3 822 ₽</p>
+                </div>
+                <div class="products__item">
+                    <div class="products__item-img">
+                        <div style="background-image: url('img/products/3.jpg');"></div>
+                    </div>
+                    <a href="#" class="products__item-title">Бездомный бог. Том 12.</a>
+                    <p class="products__item-price">3 822 ₽</p>
+                </div>
+                <div class="products__item">
+                    <div class="products__item-img">
+                        <div style="background-image: url('img/products/4.jpg');"></div>
+                    </div>
+                    <a href="#" class="products__item-title">Бездомный бог. Том 12.</a>
+                    <p class="products__item-price">3 822 ₽</p>
+                </div>
+                <div class="products__item">
+                    <div class="products__item-img">
+                        <div style="background-image: url('img/products/5.jpg');"></div>
+                    </div>
+                    <a href="#" class="products__item-title">Бездомный бог. Том 12.</a>
+                    <p class="products__item-price">3 822 ₽</p>
+                </div>
+            </div>
+            <div class="products__btn">
+                <button class="btn">Показать больше товаров</button>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts-title">Кантакты</div>
+            <div class="contacts__block">
+                <div class="contacts__geo">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2135.3545934028994!2d39.870751316295234!3d57.6424589811007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b29171c8e21c1b%3A0xc1242ac0a95f3919!2z0KHQvtCy0LXRgtGB0LrQsNGPINGD0LsuLCA3Nywg0K_RgNC-0YHQu9Cw0LLQu9GMLCDQr9GA0L7RgdC70LDQstGB0LrQsNGPINC-0LHQuy4sINCg0L7RgdGB0LjRjywgMTUwMDAz!5e0!3m2!1sru!2s!4v1605849579600!5m2!1sru!2s" width="688" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="contacts__content">
+                    <a href="tel:+79012760699">+7 (901) 276-06-99</a>
+                    <a href="#" class="contacts__content-vk">Мы ВКонтакте</a>
+                    <p class="contacts__content-geo">улица советская 77, Ярославль</p>
+                    <div class="contacts__content-type">
+                        <a href="tel:+79012760699">+7 (901) 276-06-99</a><br>
+                        <span>Работает круглосуточно</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts-form">
+        <div class="container">
+            <div class="contacts-form__block">
+                <h2 class="contacts-form-title">Уточним детали заказа, <br> ответим на все вопросы</h2>
+                <p class="contacts-form-desc">Оставьте свои контакты, <br> мы свяжемся с вами в ближайшее время</p>
+                <form class="contacts-form__form">
+                    <input type="text" placeholder="Имя" />
+                    <input type="text" placeholder="Номер телефона" />
+                    <textarea class="contacts-form__form-message" placeholder="Ваше сообщение"></textarea>
+                    <div class="contacts-form__form-check">
+                        <input type="checkbox" />
+                        <div>Отправляя форму, Вы соглашаетесь с <a href="https://vk.link/animemagazzzin?act=terms">политикой конфиденциальности</a></div>
+                    </div>
+                    <input type="button" class="btn contacts-form__form-btn" value="Перезвоните мне" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__block">
+                <h2 class="footer__block-title">Аниме магазин</h2>
+                <div class="footer__icons">
+                    <img src="./img/footer/master-card.svg" alt="">
+                    <img src="./img/footer/visa-card.svg" alt="">
+                    <img src="./img/footer/mir-card.svg" alt="">
+                    <img src="./img/footer/vk-pay.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
